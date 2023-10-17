@@ -6,3 +6,7 @@ Designed a subtle HTML and combine that with the script. So that it can be easy 
 
 Try Version 1.0.0 here: https://base64-generator.netlify.app/
 
+
+Features Version
+2.0.0 - Will improve CSS (on button & on file selectors)
+3.0.0 - Will be giving functionality for click to copy
