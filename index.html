@@ -5,40 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image to Base64 Converter</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <input type="file" id="imageInput" accept="image/png" />
-    <button onclick="convertToBase64()">Convert to Base64</button>
-    <br>
-    <img id="convertedImg" style="display: none;" />
-    <br>
-    <textarea id="base64Output" rows="10" cols="50"></textarea>
+    <div>
+        <div class="buttons">
+            <input type="file" id="imageInput" accept="image/png" class="custom-file-input" />
+            <button class="btn" onclick="convertToBase64()">Convert to Base64</button>
+        </div>
+        <br>
+        <img class="img" id="convertedImg" style="display: none;" />
+        <br>
+        <div class="output">
+            <textarea id="base64Output" rows="10" cols="55"></textarea>
+        </div>
+    </div>
 
-    <script>
-        function convertToBase64() {
-            const fileInput = document.getElementById('imageInput');
-            const convertedImg = document.getElementById('convertedImg');
-            const base64Output = document.getElementById('base64Output');
-
-            const file = fileInput.files[0];
-            if (file) {
-                const reader = new FileReader();
-
-                reader.onload = function (event) {
-                    convertedImg.src = event.target.result;
-                    convertedImg.style.display = 'block';
-
-                    const base64String = event.target.result.split(',')[1];
-                    base64Output.value = base64String;
-                };
-
-                reader.readAsDataURL(file);
-            } else {
-                alert('Please select an image file.');
-            }
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
