@@ -1,9 +1,34 @@
 body {
   margin: 0;
   height: 100vh;
+  font-family: sans-serif;
+}
+
+.container {
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.fnt20 {
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px;
 }
 
 /* Button CSS */
