@@ -9,6 +9,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 650px;
+  margin: auto;
 }
 
 .txt-center {
@@ -89,6 +91,8 @@ h1 {
   display: block;
   height: 40vh;
   margin: 10px;
+  border: 1px solid;
+  border-radius: 5px;
 }
 
 .buttons {
@@ -96,10 +100,24 @@ h1 {
   text-align: center;
 }
 
-.output {
-  margin: 10px;
+.btn-margin {
+  margin: 10px 0;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.p-10 {
+  padding: 10px;
 }
 
 textarea {
-  width: 100%
+  width: -webkit-fill-available;
+}
+
+.alert {
+  margin: auto;
+  text-align: center;
+  color: red;
 }

@@ -11,17 +11,21 @@
 <body>
     <h1 class="txt-center"><u>Convert <span class="fnt20">JPG/PNG</span> to Base64</u></h1>
     <div class="container">
-        <div>
+        <div class="p-10">
             <div class="buttons">
                 <input type="file" id="imageInput" accept="image/png" class="custom-file-input" />
                 <button class="btn" onclick="convertToBase64()">Convert to Base64</button>
             </div>
             <br>
-            <img class="img" id="convertedImg" style="display: none;" />
+            <img class="img w-100" id="convertedImg" style="display: none; margin: auto;" />
             <br>
-            <div class="output">
+            <div>
                 <textarea id="base64Output" rows="10" cols="55"></textarea>
             </div>
+            <button class="btn btn-margin w-100" id="copyToClipboardBtn" style="display: none;"
+                onclick="copyToClipboard()">Copy to
+                clipboard</button>
+            <p id="feature-not-live" style="display: none;" class="alert">This feature is not yet live!</p>
         </div>
     </div>
     <footer class="">Made By CreativeSingh in India🇮🇳 with love ❤️</footer>
