@@ -9,7 +9,7 @@ Try Version 1.0.0 here: https://base64-generator.netlify.app/
 
 Features Version
 - 2.0.0 - Will improve CSS (on button & on file selectors) - DONE
-- 3.0.0 - Will be giving functionality for click to copy
+- 3.0.0 - Will be giving functionality for click to copy - DONE
 - 4.0.0
   - Will be adding background color
   - If the image is selected, will show the image using blob
