@@ -15,3 +15,12 @@ Features Version
   - 4.0.2: If the image is selected, will show the image using blob
   - 4.1.0: Will be using Neumorphism CSS
 - 5.0.0: Dark/Light Theme switcher
+
+---
+## UI Screenshots
+
+<b>Initial UI</b>
+<img src="./HTML_UI.png" alt="initial ui">
+
+<b>UI with Base64 as Output</b>
+<img src="./HTML_UI_2.png" alt="ui with base64 output">
